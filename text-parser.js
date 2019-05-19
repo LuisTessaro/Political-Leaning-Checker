@@ -4,7 +4,7 @@ module.exports = (text) => {
   const filteredWords = words.map(word => {
     return filterWord(word)
   })
-  return normalizeWords(filteredWords)
+  return removeIrrelevant(normalizeWords(filteredWords))
 }
 
 const filterWord = (word) => {
@@ -24,6 +24,12 @@ const normalizeWords = (words) => {
   })
 }
 
-const removeIrrelevant = (words) => {
+// import this? maybe
+const irrelevantWords = ['a', 'e', 'o', 'do', 'da', 'que', 'dos', 'das']
 
+const removeIrrelevant = (words) => {
+  return words.filter(word => {
+    if (!irrelevantWords.includes(word))
+      return word
+  })
 }
