@@ -1,5 +1,5 @@
-module.exports = (word) => {
-  const words = word.split(' ').map(e => e.toLowerCase())
+module.exports = (text) => {
+  const words = text.split(' ').map(e => e.toLowerCase())
   // const parsed = splitWord.filter(e => e !== ' ')
   const filteredWords = words.map(word => {
     return filterWord(word)
