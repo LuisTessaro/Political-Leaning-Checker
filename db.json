@@ -1,0 +1,11 @@
+{
+  "bozo": {
+    "weigh": 15
+  },
+  "maldad": {
+    "weigh" : -15
+  },
+  "bonoro":{
+    "weigh" : 15
+  }
+}

@@ -4,18 +4,19 @@ module.exports = (text) => {
   const filteredWords = words.map(word => {
     return filterWord(word)
   })
-  return removeIrrelevant(normalizeWords(filteredWords))
+  console.log(normalizeWords(filteredWords))
+  return normalizeWords(filteredWords)
 }
 
 const filterWord = (word) => {
   return word.split('')
     .filter(e => {
-      if (e !== ',' && e !== "." && e !== "!" && e !== "?")
+      if (e !== ',' && e !== "." && e !== "!" && e !== "?" && e !== ":" && e !== "'" && e !== '“' && e !== '"')
         return e
     })
     .reduce((fullWord, letter) => {
       return fullWord + letter
-    })
+    }, '')
 }
 
 const normalizeWords = (words) => {
@@ -25,11 +26,13 @@ const normalizeWords = (words) => {
 }
 
 // import this? maybe
-const irrelevantWords = ['a', 'e', 'o', 'do', 'da', 'que', 'dos', 'das']
+const irrelevantWords = ['shallow', 'a', 'e', 'o', 'do', 'da', 'que', 'dos', 'das', 'no', 'na', 'vai']
 
 const removeIrrelevant = (words) => {
   return words.filter(word => {
-    if (!irrelevantWords.includes(word))
-      return word
+    // if (!irrelevantWords.includes(word))
+    //   console.log(word)
+    if (word == 'vai')
+      return 'PICA NO SEU CU VIADO'
   })
 }
