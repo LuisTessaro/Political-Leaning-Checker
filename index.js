@@ -1,12 +1,25 @@
 const textParser = require('./text-parser')
 const { getTweets } = require('./tweet-scraper')
-// console.log(textParser('Infelizmente a antiga briga dos generais e fardas e o tal do Mourão, respeitosamente acordemos!').join(' '))
+const bagOfWords = require('./bag-of-words')
 
-const newLocal = getTweets('felipeneto').then((tweets) => {
+const runTweeter = async (handler, leaning) => {
+  const tweets = await getTweets(handler)
   tweets.forEach(tweet => {
-    // console.log(tweet)
-    // textParser(tweet).join(' ')
-    // console.log(
-    textParser(tweet).join(' ')
+    bagOfWords.processWords(textParser(tweet), leaning)
   })
-})
+}
+
+const runRegularText = async (text, leaning) => {
+  const parsedText = ['text', 'parsed', 'placehodler']
+  bagOfWords.processWords(parsedText, leaning)
+}
+
+// runRegularText('textArray', 'left')
+// runTweeter('felipeneto', 'left')
+
+console.log(bagOfWords.processLeaning(textParser('flopou')))
+
+
+
+
+// const irrelevantWords = ['shallow', 'a', 'e', 'o', 'do', 'da', 'que', 'dos', 'das', 'no', 'na', 'vai']

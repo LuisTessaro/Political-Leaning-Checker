@@ -4,14 +4,17 @@ module.exports = (text) => {
   const filteredWords = words.map(word => {
     return filterWord(word)
   })
-  console.log(normalizeWords(filteredWords))
-  return normalizeWords(filteredWords)
+  const normalizedWords = normalizeWords(filteredWords)
+  return removeIrrelevant(normalizedWords)
+
 }
 
-const filterWord = (word) => {
-  return word.split('')
+const filterWord = (wordy) => {
+  const word = wordy.split('\n').join('')
+  return word
+    .split('')
     .filter(e => {
-      if (e !== ',' && e !== "." && e !== "!" && e !== "?" && e !== ":" && e !== "'" && e !== '“' && e !== '"')
+      if (e !== ',' && e !== "." && e !== "!" && e !== "?" && e !== ":" && e !== "'" && e !== '“' && e !== '"' && e !== '”')
         return e
     })
     .reduce((fullWord, letter) => {
@@ -24,15 +27,11 @@ const normalizeWords = (words) => {
     return e.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
   })
 }
-
-// import this? maybe
-const irrelevantWords = ['shallow', 'a', 'e', 'o', 'do', 'da', 'que', 'dos', 'das', 'no', 'na', 'vai']
+const irrelevantWords = 'o/os/a/as/um/uns/uma/umas/a/ao/aos/a/as/de/do/dos/da/das/dum/duns/duma/dumas/em/no/nos/na/nas/num/nuns/numa/numas/por/per/pelo/pelos/pela/pelas/algum/alguma/alguns/algumas/nenhum/nenhuma/nenhuns/nenhumas/todo/toda/todos/todas/outro/outra/outros/outras/muito/muita/muitos/muitas/pouco/pouca/poucos/poucas/certo/certa/certos/certas/vários/várias/tanto/tanta/tantos/tantas/quanto/quanta/quantos/quantas/qualquer/quaisquer/tal/tais/um/uma/uns/umas'.split('/')
 
 const removeIrrelevant = (words) => {
   return words.filter(word => {
-    // if (!irrelevantWords.includes(word))
-    //   console.log(word)
-    if (word == 'vai')
-      return 'PICA NO SEU CU VIADO'
+    if (!irrelevantWords.includes(word) && isNaN(word))
+      return true
   })
 }
