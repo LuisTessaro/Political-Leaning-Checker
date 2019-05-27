@@ -14,7 +14,14 @@ module.exports.learn = (words, leaning) => {
 }
 
 module.exports.leaningChecker = (words) => {
-    return words.reduce((acc, word) => {
-        return acc + db[word]
+    // console.log(db)
+    let acc = 0
+    words.forEach(word => {
+        if (db[word]) {
+            console.log(acc)
+            acc += db[word]
+        }
     }, 0)
+    // console.log(acc)
+    return acc
 }

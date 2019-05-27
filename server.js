@@ -8,31 +8,27 @@ const bagOfWords = require('./bag-of-words')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
-app.use(express.static('public'));
-
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-})
-
+app.use(express.static('public'))
 
 app.post('/learn', (req, res) => {
-    runRegularText(textParser(req.body.bananinhananica), req.body.nhe)
+    bagOfWords.learn(textParser(req.body.text), req.body.leaning)
     res.redirect('http://localhost:3000/')
 })
 
-app.post('/learnByTweets', (req, res) => {
-    runRegularText(textParser(req.body.bananinhananica), req.body.nhe)
-    res.redirect('http://localhost:3000/')
+app.post('/learnByTweets', async (req, res) => {
+    const tweets = await getTweets(req.body.text)
+    // console.log(tweets)
+    tweets.forEach(tweet => {
+        bagOfWords.learn(textParser(tweet), req.body.leaning)
+    })
+    res.redirect('http://localhost:3000/twitter.html')
 })
 
-app.post('/checker', (req, res) => {
-    res.send("seu score: "+bagOfWords.leaningChecker(textParser(req.body.bananinhananica)))
+app.post('/checker', async (req, res) => {
+    // console.log(textParser(req.body.text))
+    res.send("seu score: " + await bagOfWords.leaningChecker(textParser(req.body.text)))
 })
 
 app.listen(3000, () => {
     console.log('Server running on port 3000!')
 })
-
-const runRegularText = async (text, leaning) => {
-    bagOfWords.learn(text, leaning)
-}
