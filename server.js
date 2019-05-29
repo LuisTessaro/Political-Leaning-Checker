@@ -17,7 +17,6 @@ app.post('/learn', (req, res) => {
 
 app.post('/learnByTweets', async (req, res) => {
     const tweets = await getTweets(req.body.text)
-    // console.log(tweets)
     tweets.forEach(tweet => {
         bagOfWords.learn(textParser(tweet), req.body.leaning)
     })

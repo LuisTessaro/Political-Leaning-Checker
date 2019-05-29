@@ -1,8 +1,6 @@
 const db = require('./db.json')
 const fs = require('fs')
 
-// console.log(db)
-
 module.exports.learn = (words, leaning) => {
     const leaner = leaning === 'left' ? -1 : 1
     words.forEach(word => {
@@ -14,7 +12,6 @@ module.exports.learn = (words, leaning) => {
 }
 
 module.exports.leaningChecker = (words) => {
-    // console.log(db)
     let acc = 0
     words.forEach(word => {
         if (db[word]) {
@@ -22,6 +19,5 @@ module.exports.leaningChecker = (words) => {
             acc += db[word]
         }
     }, 0)
-    // console.log(acc)
     return acc
 }
