@@ -68,7 +68,7 @@ Em relação às reclamações da militância pró-governo, Villa garantiu que t
   `Você leva o seu próprio pote, sua sacola e sai com os produtos na medida que você deseja, evitando assim também o desperdício. O movimento contra as embalagens está reverberando por todo o mundo.`,
   `O supermercado Rimping Supermarket, na Tailândia, retirou o plástico de suas prateleiras e passou a usar a folha de bananeira para proteger e envolver legumes, frutas e hortaliças, substituto abundante e 100% orgânico.`,
   `No Brasil as iniciativas ainda são bem tímidas. O Pão de Açúcar, uma grande rede de supermercados, saiu na frente com a promessa de substituir 100% de suas bandejas de isopor utilizadas em produtos como frutas, verduras e legumes, por uma solução 100% biodegradável. Vamos acompanhar.`
-`Isso pq são idiotas úteis que passaram a graduação fumando maconha e fazendo balbúrdia!`,
+,`Isso pq são idiotas úteis que passaram a graduação fumando maconha e fazendo balbúrdia!`,
 ``,
 `A estudante gaúcha Juliana Estradioto recebeu o 1º lugar na área de Ciência dos Materiais na maior feira de ciências do mundo, a Intel International Science and Engineering Fair (Isef). A premiação foi anunciada nesta sexta-feira, 17 de maio de 2019, durante o evento, que ocorreu de 12 a 17 de maio em Phoenix, Estados Unidos. A feira contou com a participação de mais de 1.800 estudantes de ensino médio de 80 países.
 
@@ -376,7 +376,7 @@ Bolsonaro também acrescentou que os governos anteriores eram “antagonistas”
 Também não deixou de comentar sobre as manifestações contra os cortes da educação, que tomaram o país na quarta-feira 15. “A esquerda brasileira tomou grande parte das universidades e escolas”, afirmou aos presentes no World Affairs Council de Dallas, onde a premiação aconteceu. Anteriormente, o evento seria em Nova York, mas manifestações contrárias fizeram com que Bolsonaro desistisse de viajar à cidade.
 
 No fim, o presidente acabou confundindo o próprio slogan de campanha e se esqueceu de Deus em sua máxima: “Brasil e Estados Unidos acima de tudo… Brasil acima de todos”, disse.`
-` Pedalada? Filho 02 de Bolsonaro inflama tese no Twitter de que Congresso conspira para que presidente gaste além do esperado
+,` Pedalada? Filho 02 de Bolsonaro inflama tese no Twitter de que Congresso conspira para que presidente gaste além do esperado
 Em mais uma mensagem com tom enigmático publicada nas redes sociais, Carlos Bolsonaro, o filho 02 do presidente da República, compartilhou um vídeo nesta quarta-feira 15 que denuncia uma articulação “já engatilhada” para fazer com que Bolsonaro cometesse o crime das pedaladas fiscais. “O que está por vir pode derrubar o capitão eleito”, disse.
 Com base no vídeo do youtuber Daniel Lopez – mais um dos seguidores de Olavo de Carvalho que inflamam as redes sociais -, Carlos corrobora com a visão de que a não aprovação da Medida Provisória 870, que altera a estrutura ministerial de Bolsonaro, poderia obrigar o presidente a gastar mais do que o previsto. “O que querem é claro!”, escreveu, ao trabalhar com a hipótese de um impeachment do pai.
 
