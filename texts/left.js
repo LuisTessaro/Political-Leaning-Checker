@@ -1,4 +1,4 @@
-module.exports = [
+module.exports =[
   `Entenda a Reforma da Previdência em 3 minutos. Vídeo narrado por Seu Jorge explica o que está em jogo.`,
   `Mesmo após campanha milionária, entrevistas em rede nacional de televisão e uma cobertura da imprensa como se fosse a cura de todos os males do país, 55% dos brasileiros seguem contrários à Reforma da Previdência. Propaganda tem limite...`,
   `Ministro descartou uma pesquisa sobre drogas que custou R$ 7 milhões. A justificativa: "não confio nas pesquisas da Fiocruz".
