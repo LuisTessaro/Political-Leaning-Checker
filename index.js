@@ -1,11 +1,25 @@
-const run = require('./runTexts')
-const leftTexts = require('./texts/left')
-const rightTexts = require('./texts/right')
+const textParser = require('./text-parser')
+const { getTweets } = require('./tweet-scraper')
+const bagOfWords = require('./bag-of-words')
 
-leftTexts.forEach(text => {
-  run.runRegularText(text, 'left')
-})
+const runTweeter = async (handler, leaning) => {
+  const tweets = await getTweets(handler)
+  tweets.forEach(tweet => {
+    bagOfWords.processWords(textParser(tweet), leaning)
+  })
+}
 
-rightTexts.forEach(text => {
-  run.runRegularText(text, 'right')
-})
+const runRegularText = async (text, leaning) => {
+  const parsedText = ['text', 'parsed', 'placehodler']
+  bagOfWords.processWords(parsedText, leaning)
+}
+
+// runRegularText('textArray', 'left')
+// runTweeter('felipeneto', 'left')
+
+console.log(bagOfWords.processLeaning(textParser('flopou')))
+
+
+
+
+// const irrelevantWords = ['shallow', 'a', 'e', 'o', 'do', 'da', 'que', 'dos', 'das', 'no', 'na', 'vai']
