@@ -42,12 +42,30 @@ Mas acredita em:
   então, passe bem, boa viagem!"
   
   Boa viagem, ministro!`,
-  `Mesmo após Ministério da Economia desbloquear R$ 1,5 bilhão do MEC, ministro da Educação mantém corte das universidades federais. Weintraub declarou guerra contra o ensino superior público. É por essas e outras que dia 30 vai ser maior.
-
-  157 respostas 1.214 retweets 5.943 curtiram
-  Responder 157   Retweetar 1,2 mil   Curtir 5,9 mil
-  
+  `Mesmo após Ministério da Economia desbloquear R$ 1,5 bilhão do MEC, ministro da Educação mantém corte das universidades federais. Weintraub declarou guerra contra o ensino superior público. É por essas e outras que dia 30 vai ser maior. 
   Guilherme Boulos
   Em 10 anos, o Brasil registrou 67 mil casos de lesão por esforço repetitivo, a maioria por faxineiros, operadores de máquina, linha de produção e cozinheiros. Somos ainda o 4° país em acidentes de trabalho. E a proposta do governo é reduzir as normas de proteção ao trabalhador...`,
   `Ministério da Saúde removeu o departamento de HIV/Aids e eliminou o nome da doença da pasta. Parar de chamar uma doença  pelo nome só gera desinformação e reforça o preconceito. Que vergonha!`,
+  `O professor, historiador e comentarista político Marco Antonio Villa se revoltou e explicou seu afastamento da Rádio Jovem Pan, nesta terça-feira, 27.
+
+  “O que aconteceu foi o seguinte: após o ‘Jornal da Manhã’ recebi a comunicação do vice-presidente da empresa [José Carlos Pereira] dizendo que não queria os meus serviços pelos próximos 30 dias”, disse Villa ao portal UOL.
+  “Não é agradável o que eu estou passando, não sou moleque, tenho história, compromisso com a história. Mas como diz o poeta: ‘tento manter a espinha ereta (não me dobro aos poderosos) e o coração tranquilo’, desabafou. Questionado se irá retornar ao ar após os 30 dias afastado, Villa afirma não ter decidido: “Estou refletindo se volto ou não”.
+
+Ao portal Teleguiado, o comentarista disse que não foi demitido da Jovem Pan e não está de férias.
+
+“Sou PJ. No dia 24, após o Jornal da Manhã, a direção pediu para que eu não prestasse serviços durante um mês”.
+
+“Por enquanto, a rádio não disse se o contrato será encerrado de vez”, completou.
+
+O súbito afastamento fez com que ouvintes e blogueiros aventassem a possibilidade de o governo Bolsonaro ter pedido a cabeça de  Villa.
+
+Ao Uol o comentarista disse: “Seria leviandade da minha parte dizer que ele teve um dedo nessa história. Não posso dizer que ‘sim’, nem que ‘não’. Seria uma irresponsabilidade”, avalia.
+
+Em relação às reclamações da militância pró-governo, Villa garantiu que tratará Bolsonaro igual tratou Temer e Dilma.
+
+“Não estou contra o governo, mas também não sou a favor. Eu comento com absoluta independência. Isso não agrada no Brasil. O poder não gosta de liberdade”.`,
+  `Já pensou entrar em um supermercado em que os produtos são todos vendidos a granel, sem embalagens? Pois é isso o que já acontece em alguns países como Alemanha, França, Portugal e Inglaterra.`,
+  `Você leva o seu próprio pote, sua sacola e sai com os produtos na medida que você deseja, evitando assim também o desperdício. O movimento contra as embalagens está reverberando por todo o mundo.`,
+  `O supermercado Rimping Supermarket, na Tailândia, retirou o plástico de suas prateleiras e passou a usar a folha de bananeira para proteger e envolver legumes, frutas e hortaliças, substituto abundante e 100% orgânico.`,
+  `No Brasil as iniciativas ainda são bem tímidas. O Pão de Açúcar, uma grande rede de supermercados, saiu na frente com a promessa de substituir 100% de suas bandejas de isopor utilizadas em produtos como frutas, verduras e legumes, por uma solução 100% biodegradável. Vamos acompanhar.`
 ]
