@@ -24,8 +24,9 @@ app.post('/learnByTweets', async (req, res) => {
 })
 
 app.post('/checker', async (req, res) => {
-    // console.log(textParser(req.body.text))
-    res.send("seu score: " + await bagOfWords.leaningChecker(textParser(req.body.text)))
+    const value = await bagOfWords.leaningChecker(textParser(req.body.text))
+    const tendency = value < 0 ? 'Esquerda' : 'Direita'
+    res.send("Seu texto tende à " + tendency)
 })
 
 app.listen(3000, () => {
