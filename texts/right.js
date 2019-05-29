@@ -3,5 +3,6 @@ module.exports = [
 Seu ilícito`,
   `Foi muito legal a manifestação
 Foi legal ver você discursando ao vivo amigo `,
-`Nando talvez nao se de conta do que realmente se tornou... estamos com vc Nando`
+`Nando talvez nao se de conta do que realmente se tornou... estamos com vc Nando`,
+`É amanhã galera. Vamos às ruas. Brasil acima de tudo, Deus acima de todos 🇧🇷🇧🇷🇧🇷🇧`
 ]
